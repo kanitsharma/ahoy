@@ -1,12 +1,6 @@
-# Angular 2 Material and Flex layout boilerplate
+# Ahoy
 
-No need to waste time in boilerplating, clone and start hacking.
-
-## Prerequisites
-
-```
-npm install
-```
+Talk like a pirate 
 
 ## Development server
 
