@@ -1,0 +1,16 @@
+<md-sidenav-container fxFill>
+  <md-sidenav #sidenav opened = "false" mode = "over" >
+    Working On It
+  </md-sidenav>
+  <div class="container" fxLayout = "column" fxFill>
+    <md-toolbar class="toolbar">
+      <button md-button (click) = "toggle(sidenav)">
+        <i class="material-icons">dehaze</i>
+      </button>
+      &nbsp;Pirate Converter
+    </md-toolbar>
+    <div fxFlex>
+      <app-body></app-body>
+    </div>
+  </div>
+</md-sidenav-container>

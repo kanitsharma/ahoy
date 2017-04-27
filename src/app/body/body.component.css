@@ -1,0 +1,12 @@
+.full-width {
+  width: 100%;
+}
+.inputcontainer{
+  padding-left : 400px;
+  padding-right : 400px;
+  font-size: 25px;
+
+}
+.ycontainer{
+  border: 1px solid #ccc;
+}
