@@ -251,7 +251,7 @@ var YodaService = (function () {
         this.http = http;
     }
     YodaService.prototype.fetchData = function (uri) {
-        return this.http.get("http://api.funtranslations.com/translate/pirate.json?text=" + uri)
+        return this.http.get("https://api.funtranslations.com/translate/pirate.json?text=" + uri)
             .map(function (res) { return res.json(); });
     };
     return YodaService;
