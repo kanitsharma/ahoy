@@ -23,7 +23,7 @@ export class BodyComponent implements OnInit {
     this.uri = encodeURI(this.sentence);
     this.YodaService.fetchData(this.uri).subscribe(
       (data) => {
-        this.yodasentence = data.contents.trnaslated;
+        this.yodasentence = data.contents.translated;
       }
     );
   }
