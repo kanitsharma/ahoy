@@ -8,7 +8,7 @@ export class YodaService {
   constructor( private http : Http ) { }
 
   fetchData( uri : string) {
-    return this.http.get(`http://api.funtranslations.com/translate/pirate.json?text=${uri}`)
+    return this.http.get(`https://api.funtranslations.com/translate/pirate.json?text=${uri}`)
       .map((res:Response) => res.json());
     }
 
